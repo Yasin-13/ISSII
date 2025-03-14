@@ -1,0 +1,2681 @@
+[
+    {
+        "timestamp": "2025-02-17 04:26:00",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Stopped",
+                    "passed": false
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "17 February 2025 02:25:44",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-17 07:27:17",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Stopped",
+                    "passed": false
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "17 February 2025 02:25:44",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-18 06:49:40",
+        "results": {
+            "Linux Audit": {
+                "OS Version": {
+                    "result": "Description:\tParrot OS 5.3 (Electro Ara)",
+                    "passed": true
+                },
+                "Kernel Version": {
+                    "result": "6.1.0-1parrot1-amd64",
+                    "passed": true
+                },
+                "Firewall Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Running Services": {
+                    "result": [
+                        "UNIT                           LOAD   ACTIVE SUB     DESCRIPTION",
+                        "  accounts-daemon.service        loaded active running Accounts Service",
+                        "  cron.service                   loaded active running Regular background program processing daemon",
+                        "  dbus.service                   loaded active running D-Bus System Message Bus",
+                        "  getty@tty1.service             loaded active running Getty on tty1",
+                        "  haveged.service                loaded active running Entropy Daemon based on the HAVEGE algorithm",
+                        "  lightdm.service                loaded active running Light Display Manager",
+                        "  ModemManager.service           loaded active running Modem Manager",
+                        "  NetworkManager.service         loaded active running Network Manager",
+                        "  polkit.service                 loaded active running Authorization Manager"
+                    ],
+                    "passed": true
+                },
+                "Listening Ports": {
+                    "result": [
+                        "tcp   LISTEN 0      128          0.0.0.0:22        0.0.0.0:*          ",
+                        "tcp   LISTEN 0      128             [::]:22           [::]:*"
+                    ],
+                    "passed": true
+                },
+                "Users": {
+                    "result": [
+                        "root",
+                        "daemon",
+                        "bin",
+                        "sys",
+                        "sync",
+                        "games",
+                        "man",
+                        "lp",
+                        "mail",
+                        "news",
+                        "uucp",
+                        "proxy",
+                        "www-data",
+                        "backup",
+                        "list",
+                        "irc",
+                        "gnats",
+                        "nobody",
+                        "_apt",
+                        "systemd-network",
+                        "systemd-resolve",
+                        "tss",
+                        "strongswan",
+                        "messagebus",
+                        "systemd-timesync",
+                        "Debian-exim",
+                        "uuidd",
+                        "debian-tor",
+                        "usbmux",
+                        "rtkit",
+                        "dnsmasq",
+                        "avahi",
+                        "nm-openvpn",
+                        "nm-openconnect",
+                        "speech-dispatcher",
+                        "pulse",
+                        "geoclue",
+                        "lightdm",
+                        "mysql",
+                        "tcpdump",
+                        "stunnel4",
+                        "sshd",
+                        "sslh",
+                        "ntp",
+                        "postgres",
+                        "arpwatch",
+                        "miredo-server",
+                        "iodine",
+                        "miredo",
+                        "redis",
+                        "inetsim",
+                        "_gvm",
+                        "beef-xss",
+                        "parrot",
+                        "ftp"
+                    ],
+                    "passed": true
+                },
+                "Groups": {
+                    "result": [
+                        "root",
+                        "daemon",
+                        "bin",
+                        "sys",
+                        "adm",
+                        "tty",
+                        "disk",
+                        "lp",
+                        "mail",
+                        "news",
+                        "uucp",
+                        "man",
+                        "proxy",
+                        "kmem",
+                        "dialout",
+                        "fax",
+                        "voice",
+                        "cdrom",
+                        "floppy",
+                        "tape",
+                        "sudo",
+                        "audio",
+                        "dip",
+                        "www-data",
+                        "backup",
+                        "operator",
+                        "list",
+                        "irc",
+                        "src",
+                        "gnats",
+                        "shadow",
+                        "utmp",
+                        "video",
+                        "sasl",
+                        "plugdev",
+                        "staff",
+                        "games",
+                        "users",
+                        "nogroup",
+                        "systemd-journal",
+                        "systemd-network",
+                        "systemd-resolve",
+                        "input",
+                        "kvm",
+                        "render",
+                        "crontab",
+                        "netdev",
+                        "tss",
+                        "messagebus",
+                        "systemd-timesync",
+                        "Debian-exim",
+                        "uuidd",
+                        "debian-tor",
+                        "ssh",
+                        "bluetooth",
+                        "rtkit",
+                        "vboxsf",
+                        "avahi",
+                        "nm-openvpn",
+                        "nm-openconnect",
+                        "pulse",
+                        "pulse-access",
+                        "geoclue",
+                        "lightdm",
+                        "sgx",
+                        "pipewire",
+                        "mysql",
+                        "tcpdump",
+                        "rdma",
+                        "stunnel4",
+                        "sslh",
+                        "ssl-cert",
+                        "ntp",
+                        "postgres",
+                        "arpwatch",
+                        "sambashare",
+                        "redis",
+                        "inetsim",
+                        "wireshark",
+                        "_gvm",
+                        "beef-xss",
+                        "lpadmin",
+                        "scanner",
+                        "docker",
+                        "autologin",
+                        "parrot",
+                        "ftp"
+                    ],
+                    "passed": true
+                },
+                "Installed Packages": {
+                    "result": [
+                        "0trace",
+                        "accountsservice",
+                        "adduser",
+                        "adwaita-icon-theme",
+                        "afflib-tools",
+                        "afl",
+                        "afl++",
+                        "afl++-clang",
+                        "afl++-doc",
+                        "aircrack-ng"
+                    ],
+                    "passed": true
+                },
+                "Scheduled Cron Jobs": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                },
+                "Disk Usage": {
+                    "result": [
+                        "total           131G   15G  115G  11% -"
+                    ],
+                    "passed": true
+                },
+                "Memory Usage": {
+                    "result": [
+                        "Mem:            2741         711        1364          22         666        1861"
+                    ],
+                    "passed": true
+                },
+                "CPU Usage": {
+                    "result": [
+                        "%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st"
+                    ],
+                    "passed": true
+                },
+                "Log Files": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-18 06:52:33",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Stopped",
+                    "passed": false
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "18 February 2025 03:35:40",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            },
+            "Linux Audit": {
+                "OS Version": {
+                    "result": "Description:\tParrot OS 5.3 (Electro Ara)",
+                    "passed": true
+                },
+                "Kernel Version": {
+                    "result": "6.1.0-1parrot1-amd64",
+                    "passed": true
+                },
+                "Firewall Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Running Services": {
+                    "result": [
+                        "UNIT                           LOAD   ACTIVE SUB     DESCRIPTION",
+                        "  accounts-daemon.service        loaded active running Accounts Service",
+                        "  cron.service                   loaded active running Regular background program processing daemon",
+                        "  dbus.service                   loaded active running D-Bus System Message Bus",
+                        "  getty@tty1.service             loaded active running Getty on tty1",
+                        "  haveged.service                loaded active running Entropy Daemon based on the HAVEGE algorithm",
+                        "  lightdm.service                loaded active running Light Display Manager",
+                        "  ModemManager.service           loaded active running Modem Manager",
+                        "  NetworkManager.service         loaded active running Network Manager",
+                        "  polkit.service                 loaded active running Authorization Manager"
+                    ],
+                    "passed": true
+                },
+                "Listening Ports": {
+                    "result": [
+                        "tcp   LISTEN 0      128          0.0.0.0:22        0.0.0.0:*          ",
+                        "tcp   LISTEN 0      128             [::]:22           [::]:*"
+                    ],
+                    "passed": true
+                },
+                "Users": {
+                    "result": [
+                        "root",
+                        "daemon",
+                        "bin",
+                        "sys",
+                        "sync",
+                        "games",
+                        "man",
+                        "lp",
+                        "mail",
+                        "news",
+                        "uucp",
+                        "proxy",
+                        "www-data",
+                        "backup",
+                        "list",
+                        "irc",
+                        "gnats",
+                        "nobody",
+                        "_apt",
+                        "systemd-network",
+                        "systemd-resolve",
+                        "tss",
+                        "strongswan",
+                        "messagebus",
+                        "systemd-timesync",
+                        "Debian-exim",
+                        "uuidd",
+                        "debian-tor",
+                        "usbmux",
+                        "rtkit",
+                        "dnsmasq",
+                        "avahi",
+                        "nm-openvpn",
+                        "nm-openconnect",
+                        "speech-dispatcher",
+                        "pulse",
+                        "geoclue",
+                        "lightdm",
+                        "mysql",
+                        "tcpdump",
+                        "stunnel4",
+                        "sshd",
+                        "sslh",
+                        "ntp",
+                        "postgres",
+                        "arpwatch",
+                        "miredo-server",
+                        "iodine",
+                        "miredo",
+                        "redis",
+                        "inetsim",
+                        "_gvm",
+                        "beef-xss",
+                        "parrot",
+                        "ftp"
+                    ],
+                    "passed": true
+                },
+                "Groups": {
+                    "result": [
+                        "root",
+                        "daemon",
+                        "bin",
+                        "sys",
+                        "adm",
+                        "tty",
+                        "disk",
+                        "lp",
+                        "mail",
+                        "news",
+                        "uucp",
+                        "man",
+                        "proxy",
+                        "kmem",
+                        "dialout",
+                        "fax",
+                        "voice",
+                        "cdrom",
+                        "floppy",
+                        "tape",
+                        "sudo",
+                        "audio",
+                        "dip",
+                        "www-data",
+                        "backup",
+                        "operator",
+                        "list",
+                        "irc",
+                        "src",
+                        "gnats",
+                        "shadow",
+                        "utmp",
+                        "video",
+                        "sasl",
+                        "plugdev",
+                        "staff",
+                        "games",
+                        "users",
+                        "nogroup",
+                        "systemd-journal",
+                        "systemd-network",
+                        "systemd-resolve",
+                        "input",
+                        "kvm",
+                        "render",
+                        "crontab",
+                        "netdev",
+                        "tss",
+                        "messagebus",
+                        "systemd-timesync",
+                        "Debian-exim",
+                        "uuidd",
+                        "debian-tor",
+                        "ssh",
+                        "bluetooth",
+                        "rtkit",
+                        "vboxsf",
+                        "avahi",
+                        "nm-openvpn",
+                        "nm-openconnect",
+                        "pulse",
+                        "pulse-access",
+                        "geoclue",
+                        "lightdm",
+                        "sgx",
+                        "pipewire",
+                        "mysql",
+                        "tcpdump",
+                        "rdma",
+                        "stunnel4",
+                        "sslh",
+                        "ssl-cert",
+                        "ntp",
+                        "postgres",
+                        "arpwatch",
+                        "sambashare",
+                        "redis",
+                        "inetsim",
+                        "wireshark",
+                        "_gvm",
+                        "beef-xss",
+                        "lpadmin",
+                        "scanner",
+                        "docker",
+                        "autologin",
+                        "parrot",
+                        "ftp"
+                    ],
+                    "passed": true
+                },
+                "Installed Packages": {
+                    "result": [
+                        "0trace",
+                        "accountsservice",
+                        "adduser",
+                        "adwaita-icon-theme",
+                        "afflib-tools",
+                        "afl",
+                        "afl++",
+                        "afl++-clang",
+                        "afl++-doc",
+                        "aircrack-ng"
+                    ],
+                    "passed": true
+                },
+                "Scheduled Cron Jobs": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                },
+                "Disk Usage": {
+                    "result": [
+                        "total           131G   15G  115G  11% -"
+                    ],
+                    "passed": true
+                },
+                "Memory Usage": {
+                    "result": [
+                        "Mem:            2741         719        1353          22         668        1853"
+                    ],
+                    "passed": true
+                },
+                "CPU Usage": {
+                    "result": [
+                        "%Cpu(s):  2.3 us,  3.9 sy,  0.0 ni, 93.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st"
+                    ],
+                    "passed": true
+                },
+                "Log Files": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-18 06:54:08",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Stopped",
+                    "passed": false
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "18 February 2025 03:35:40",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-18 06:55:18",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Stopped",
+                    "passed": false
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "18 February 2025 03:35:40",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            },
+            "Linux Audit": {
+                "OS Version": {
+                    "result": "Description:\tParrot OS 5.3 (Electro Ara)",
+                    "passed": true
+                },
+                "Kernel Version": {
+                    "result": "6.1.0-1parrot1-amd64",
+                    "passed": true
+                },
+                "Firewall Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Running Services": {
+                    "result": [
+                        "UNIT                           LOAD   ACTIVE SUB     DESCRIPTION",
+                        "  accounts-daemon.service        loaded active running Accounts Service",
+                        "  cron.service                   loaded active running Regular background program processing daemon",
+                        "  dbus.service                   loaded active running D-Bus System Message Bus",
+                        "  getty@tty1.service             loaded active running Getty on tty1",
+                        "  haveged.service                loaded active running Entropy Daemon based on the HAVEGE algorithm",
+                        "  lightdm.service                loaded active running Light Display Manager",
+                        "  ModemManager.service           loaded active running Modem Manager",
+                        "  NetworkManager.service         loaded active running Network Manager",
+                        "  polkit.service                 loaded active running Authorization Manager"
+                    ],
+                    "passed": true
+                },
+                "Listening Ports": {
+                    "result": [
+                        "tcp   LISTEN 0      128          0.0.0.0:22        0.0.0.0:*          ",
+                        "tcp   LISTEN 0      128             [::]:22           [::]:*"
+                    ],
+                    "passed": true
+                },
+                "Users": {
+                    "result": [
+                        "root",
+                        "daemon",
+                        "bin",
+                        "sys",
+                        "sync",
+                        "games",
+                        "man",
+                        "lp",
+                        "mail",
+                        "news",
+                        "uucp",
+                        "proxy",
+                        "www-data",
+                        "backup",
+                        "list",
+                        "irc",
+                        "gnats",
+                        "nobody",
+                        "_apt",
+                        "systemd-network",
+                        "systemd-resolve",
+                        "tss",
+                        "strongswan",
+                        "messagebus",
+                        "systemd-timesync",
+                        "Debian-exim",
+                        "uuidd",
+                        "debian-tor",
+                        "usbmux",
+                        "rtkit",
+                        "dnsmasq",
+                        "avahi",
+                        "nm-openvpn",
+                        "nm-openconnect",
+                        "speech-dispatcher",
+                        "pulse",
+                        "geoclue",
+                        "lightdm",
+                        "mysql",
+                        "tcpdump",
+                        "stunnel4",
+                        "sshd",
+                        "sslh",
+                        "ntp",
+                        "postgres",
+                        "arpwatch",
+                        "miredo-server",
+                        "iodine",
+                        "miredo",
+                        "redis",
+                        "inetsim",
+                        "_gvm",
+                        "beef-xss",
+                        "parrot",
+                        "ftp"
+                    ],
+                    "passed": true
+                },
+                "Groups": {
+                    "result": [
+                        "root",
+                        "daemon",
+                        "bin",
+                        "sys",
+                        "adm",
+                        "tty",
+                        "disk",
+                        "lp",
+                        "mail",
+                        "news",
+                        "uucp",
+                        "man",
+                        "proxy",
+                        "kmem",
+                        "dialout",
+                        "fax",
+                        "voice",
+                        "cdrom",
+                        "floppy",
+                        "tape",
+                        "sudo",
+                        "audio",
+                        "dip",
+                        "www-data",
+                        "backup",
+                        "operator",
+                        "list",
+                        "irc",
+                        "src",
+                        "gnats",
+                        "shadow",
+                        "utmp",
+                        "video",
+                        "sasl",
+                        "plugdev",
+                        "staff",
+                        "games",
+                        "users",
+                        "nogroup",
+                        "systemd-journal",
+                        "systemd-network",
+                        "systemd-resolve",
+                        "input",
+                        "kvm",
+                        "render",
+                        "crontab",
+                        "netdev",
+                        "tss",
+                        "messagebus",
+                        "systemd-timesync",
+                        "Debian-exim",
+                        "uuidd",
+                        "debian-tor",
+                        "ssh",
+                        "bluetooth",
+                        "rtkit",
+                        "vboxsf",
+                        "avahi",
+                        "nm-openvpn",
+                        "nm-openconnect",
+                        "pulse",
+                        "pulse-access",
+                        "geoclue",
+                        "lightdm",
+                        "sgx",
+                        "pipewire",
+                        "mysql",
+                        "tcpdump",
+                        "rdma",
+                        "stunnel4",
+                        "sslh",
+                        "ssl-cert",
+                        "ntp",
+                        "postgres",
+                        "arpwatch",
+                        "sambashare",
+                        "redis",
+                        "inetsim",
+                        "wireshark",
+                        "_gvm",
+                        "beef-xss",
+                        "lpadmin",
+                        "scanner",
+                        "docker",
+                        "autologin",
+                        "parrot",
+                        "ftp"
+                    ],
+                    "passed": true
+                },
+                "Installed Packages": {
+                    "result": [
+                        "0trace",
+                        "accountsservice",
+                        "adduser",
+                        "adwaita-icon-theme",
+                        "afflib-tools",
+                        "afl",
+                        "afl++",
+                        "afl++-clang",
+                        "afl++-doc",
+                        "aircrack-ng"
+                    ],
+                    "passed": true
+                },
+                "Scheduled Cron Jobs": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                },
+                "Disk Usage": {
+                    "result": [
+                        "total           131G   15G  115G  11% -"
+                    ],
+                    "passed": true
+                },
+                "Memory Usage": {
+                    "result": [
+                        "Mem:            2741         716        1355          22         669        1855"
+                    ],
+                    "passed": true
+                },
+                "CPU Usage": {
+                    "result": [
+                        "%Cpu(s):  6.5 us,  6.5 sy,  0.0 ni, 85.5 id,  0.0 wa,  0.0 hi,  1.6 si,  0.0 st"
+                    ],
+                    "passed": true
+                },
+                "Log Files": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-18 10:33:47",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "18 February 2025 03:35:40",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-18 10:33:52",
+        "results": {
+            "Linux Audit": {
+                "OS Version": {
+                    "result": "[Errno None] Unable to connect to port 22 on 172.20.10.3",
+                    "passed": true
+                },
+                "Kernel Version": {
+                    "result": "[Errno None] Unable to connect to port 22 on 172.20.10.3",
+                    "passed": true
+                },
+                "Firewall Status": {
+                    "result": "[Errno None] Unable to connect to port 22 on 172.20.10.3",
+                    "passed": false
+                },
+                "Running Services": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Listening Ports": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Users": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Groups": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Installed Packages": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Scheduled Cron Jobs": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Disk Usage": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Memory Usage": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "CPU Usage": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Log Files": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-18 10:33:57",
+        "results": {
+            "Linux Audit": {
+                "OS Version": {
+                    "result": "[Errno None] Unable to connect to port 22 on 172.20.10.3",
+                    "passed": true
+                },
+                "Kernel Version": {
+                    "result": "[Errno None] Unable to connect to port 22 on 172.20.10.3",
+                    "passed": true
+                },
+                "Firewall Status": {
+                    "result": "[Errno None] Unable to connect to port 22 on 172.20.10.3",
+                    "passed": false
+                },
+                "Running Services": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Listening Ports": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Users": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Groups": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Installed Packages": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Scheduled Cron Jobs": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Disk Usage": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Memory Usage": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "CPU Usage": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Log Files": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-18 10:34:25",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "18 February 2025 03:35:40",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            },
+            "Linux Audit": {
+                "OS Version": {
+                    "result": "[Errno None] Unable to connect to port 22 on 172.20.10.3",
+                    "passed": true
+                },
+                "Kernel Version": {
+                    "result": "[Errno None] Unable to connect to port 22 on 172.20.10.3",
+                    "passed": true
+                },
+                "Firewall Status": {
+                    "result": "[Errno None] Unable to connect to port 22 on 172.20.10.3",
+                    "passed": false
+                },
+                "Running Services": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Listening Ports": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Users": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Groups": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Installed Packages": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Scheduled Cron Jobs": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Disk Usage": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Memory Usage": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "CPU Usage": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                },
+                "Log Files": {
+                    "result": [
+                        "[Errno None] Unable to connect to port 22 on 172.20.10.3"
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-18 14:06:49",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "18 February 2025 03:35:40",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-18 14:12:12",
+        "results": {
+            "Linux Audit": {
+                "OS Version": {
+                    "result": "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond",
+                    "passed": true
+                },
+                "Kernel Version": {
+                    "result": "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond",
+                    "passed": true
+                },
+                "Firewall Status": {
+                    "result": "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond",
+                    "passed": false
+                },
+                "Running Services": {
+                    "result": [
+                        "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
+                    ],
+                    "passed": true
+                },
+                "Listening Ports": {
+                    "result": [
+                        "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
+                    ],
+                    "passed": true
+                },
+                "Users": {
+                    "result": [
+                        "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
+                    ],
+                    "passed": true
+                },
+                "Groups": {
+                    "result": [
+                        "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
+                    ],
+                    "passed": true
+                },
+                "Installed Packages": {
+                    "result": [
+                        "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
+                    ],
+                    "passed": true
+                },
+                "Scheduled Cron Jobs": {
+                    "result": [
+                        "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
+                    ],
+                    "passed": true
+                },
+                "Disk Usage": {
+                    "result": [
+                        "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
+                    ],
+                    "passed": true
+                },
+                "Memory Usage": {
+                    "result": [
+                        "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
+                    ],
+                    "passed": true
+                },
+                "CPU Usage": {
+                    "result": [
+                        "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
+                    ],
+                    "passed": true
+                },
+                "Log Files": {
+                    "result": [
+                        "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-20 06:18:49",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "19 February 2025 04:54:54",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-20 06:19:07",
+        "results": {
+            "Linux Audit": {
+                "OS Version": {
+                    "result": "Description:\tParrot OS 5.3 (Electro Ara)",
+                    "passed": true
+                },
+                "Kernel Version": {
+                    "result": "6.1.0-1parrot1-amd64",
+                    "passed": true
+                },
+                "Firewall Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Running Services": {
+                    "result": [
+                        "UNIT                           LOAD   ACTIVE SUB     DESCRIPTION",
+                        "  accounts-daemon.service        loaded active running Accounts Service",
+                        "  cron.service                   loaded active running Regular background program processing daemon",
+                        "  dbus.service                   loaded active running D-Bus System Message Bus",
+                        "  getty@tty1.service             loaded active running Getty on tty1",
+                        "  haveged.service                loaded active running Entropy Daemon based on the HAVEGE algorithm",
+                        "  lightdm.service                loaded active running Light Display Manager",
+                        "  ModemManager.service           loaded active running Modem Manager",
+                        "  NetworkManager.service         loaded active running Network Manager",
+                        "  polkit.service                 loaded active running Authorization Manager"
+                    ],
+                    "passed": true
+                },
+                "Listening Ports": {
+                    "result": [
+                        "tcp   LISTEN 0      128                               0.0.0.0:22        0.0.0.0:*          ",
+                        "tcp   LISTEN 0      128                                  [::]:22           [::]:*"
+                    ],
+                    "passed": true
+                },
+                "Users": {
+                    "result": [
+                        "root",
+                        "daemon",
+                        "bin",
+                        "sys",
+                        "sync",
+                        "games",
+                        "man",
+                        "lp",
+                        "mail",
+                        "news",
+                        "uucp",
+                        "proxy",
+                        "www-data",
+                        "backup",
+                        "list",
+                        "irc",
+                        "gnats",
+                        "nobody",
+                        "_apt",
+                        "systemd-network",
+                        "systemd-resolve",
+                        "tss",
+                        "strongswan",
+                        "messagebus",
+                        "systemd-timesync",
+                        "Debian-exim",
+                        "uuidd",
+                        "debian-tor",
+                        "usbmux",
+                        "rtkit",
+                        "dnsmasq",
+                        "avahi",
+                        "nm-openvpn",
+                        "nm-openconnect",
+                        "speech-dispatcher",
+                        "pulse",
+                        "geoclue",
+                        "lightdm",
+                        "mysql",
+                        "tcpdump",
+                        "stunnel4",
+                        "sshd",
+                        "sslh",
+                        "ntp",
+                        "postgres",
+                        "arpwatch",
+                        "miredo-server",
+                        "iodine",
+                        "miredo",
+                        "redis",
+                        "inetsim",
+                        "_gvm",
+                        "beef-xss",
+                        "parrot",
+                        "ftp"
+                    ],
+                    "passed": true
+                },
+                "Groups": {
+                    "result": [
+                        "root",
+                        "daemon",
+                        "bin",
+                        "sys",
+                        "adm",
+                        "tty",
+                        "disk",
+                        "lp",
+                        "mail",
+                        "news",
+                        "uucp",
+                        "man",
+                        "proxy",
+                        "kmem",
+                        "dialout",
+                        "fax",
+                        "voice",
+                        "cdrom",
+                        "floppy",
+                        "tape",
+                        "sudo",
+                        "audio",
+                        "dip",
+                        "www-data",
+                        "backup",
+                        "operator",
+                        "list",
+                        "irc",
+                        "src",
+                        "gnats",
+                        "shadow",
+                        "utmp",
+                        "video",
+                        "sasl",
+                        "plugdev",
+                        "staff",
+                        "games",
+                        "users",
+                        "nogroup",
+                        "systemd-journal",
+                        "systemd-network",
+                        "systemd-resolve",
+                        "input",
+                        "kvm",
+                        "render",
+                        "crontab",
+                        "netdev",
+                        "tss",
+                        "messagebus",
+                        "systemd-timesync",
+                        "Debian-exim",
+                        "uuidd",
+                        "debian-tor",
+                        "ssh",
+                        "bluetooth",
+                        "rtkit",
+                        "vboxsf",
+                        "avahi",
+                        "nm-openvpn",
+                        "nm-openconnect",
+                        "pulse",
+                        "pulse-access",
+                        "geoclue",
+                        "lightdm",
+                        "sgx",
+                        "pipewire",
+                        "mysql",
+                        "tcpdump",
+                        "rdma",
+                        "stunnel4",
+                        "sslh",
+                        "ssl-cert",
+                        "ntp",
+                        "postgres",
+                        "arpwatch",
+                        "sambashare",
+                        "redis",
+                        "inetsim",
+                        "wireshark",
+                        "_gvm",
+                        "beef-xss",
+                        "lpadmin",
+                        "scanner",
+                        "docker",
+                        "autologin",
+                        "parrot",
+                        "ftp"
+                    ],
+                    "passed": true
+                },
+                "Installed Packages": {
+                    "result": [
+                        "0trace",
+                        "accountsservice",
+                        "adduser",
+                        "adwaita-icon-theme",
+                        "afflib-tools",
+                        "afl",
+                        "afl++",
+                        "afl++-clang",
+                        "afl++-doc",
+                        "aircrack-ng"
+                    ],
+                    "passed": true
+                },
+                "Scheduled Cron Jobs": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                },
+                "Disk Usage": {
+                    "result": [
+                        "total           131G   15G  115G  12% -"
+                    ],
+                    "passed": true
+                },
+                "Memory Usage": {
+                    "result": [
+                        "Mem:            2741         642        1442           6         656        1945"
+                    ],
+                    "passed": true
+                },
+                "CPU Usage": {
+                    "result": [
+                        "%Cpu(s):  3.6 us, 10.7 sy,  0.0 ni, 85.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st"
+                    ],
+                    "passed": true
+                },
+                "Log Files": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-21 06:23:03",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "19 February 2025 21:56:42",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-21 06:23:13",
+        "results": {
+            "Linux Audit": {
+                "OS Version": {
+                    "result": "Description:\tParrot OS 5.3 (Electro Ara)",
+                    "passed": true
+                },
+                "Kernel Version": {
+                    "result": "6.1.0-1parrot1-amd64",
+                    "passed": true
+                },
+                "Firewall Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Running Services": {
+                    "result": [
+                        "UNIT                           LOAD   ACTIVE SUB     DESCRIPTION",
+                        "  accounts-daemon.service        loaded active running Accounts Service",
+                        "  cron.service                   loaded active running Regular background program processing daemon",
+                        "  dbus.service                   loaded active running D-Bus System Message Bus",
+                        "  getty@tty1.service             loaded active running Getty on tty1",
+                        "  haveged.service                loaded active running Entropy Daemon based on the HAVEGE algorithm",
+                        "  lightdm.service                loaded active running Light Display Manager",
+                        "  ModemManager.service           loaded active running Modem Manager",
+                        "  NetworkManager.service         loaded active running Network Manager",
+                        "  polkit.service                 loaded active running Authorization Manager"
+                    ],
+                    "passed": true
+                },
+                "Listening Ports": {
+                    "result": [
+                        "tcp   LISTEN 0      128                               0.0.0.0:22        0.0.0.0:*          ",
+                        "tcp   LISTEN 0      128                                  [::]:22           [::]:*"
+                    ],
+                    "passed": true
+                },
+                "Users": {
+                    "result": [
+                        "root",
+                        "daemon",
+                        "bin",
+                        "sys",
+                        "sync",
+                        "games",
+                        "man",
+                        "lp",
+                        "mail",
+                        "news",
+                        "uucp",
+                        "proxy",
+                        "www-data",
+                        "backup",
+                        "list",
+                        "irc",
+                        "gnats",
+                        "nobody",
+                        "_apt",
+                        "systemd-network",
+                        "systemd-resolve",
+                        "tss",
+                        "strongswan",
+                        "messagebus",
+                        "systemd-timesync",
+                        "Debian-exim",
+                        "uuidd",
+                        "debian-tor",
+                        "usbmux",
+                        "rtkit",
+                        "dnsmasq",
+                        "avahi",
+                        "nm-openvpn",
+                        "nm-openconnect",
+                        "speech-dispatcher",
+                        "pulse",
+                        "geoclue",
+                        "lightdm",
+                        "mysql",
+                        "tcpdump",
+                        "stunnel4",
+                        "sshd",
+                        "sslh",
+                        "ntp",
+                        "postgres",
+                        "arpwatch",
+                        "miredo-server",
+                        "iodine",
+                        "miredo",
+                        "redis",
+                        "inetsim",
+                        "_gvm",
+                        "beef-xss",
+                        "parrot",
+                        "ftp"
+                    ],
+                    "passed": true
+                },
+                "Groups": {
+                    "result": [
+                        "root",
+                        "daemon",
+                        "bin",
+                        "sys",
+                        "adm",
+                        "tty",
+                        "disk",
+                        "lp",
+                        "mail",
+                        "news",
+                        "uucp",
+                        "man",
+                        "proxy",
+                        "kmem",
+                        "dialout",
+                        "fax",
+                        "voice",
+                        "cdrom",
+                        "floppy",
+                        "tape",
+                        "sudo",
+                        "audio",
+                        "dip",
+                        "www-data",
+                        "backup",
+                        "operator",
+                        "list",
+                        "irc",
+                        "src",
+                        "gnats",
+                        "shadow",
+                        "utmp",
+                        "video",
+                        "sasl",
+                        "plugdev",
+                        "staff",
+                        "games",
+                        "users",
+                        "nogroup",
+                        "systemd-journal",
+                        "systemd-network",
+                        "systemd-resolve",
+                        "input",
+                        "kvm",
+                        "render",
+                        "crontab",
+                        "netdev",
+                        "tss",
+                        "messagebus",
+                        "systemd-timesync",
+                        "Debian-exim",
+                        "uuidd",
+                        "debian-tor",
+                        "ssh",
+                        "bluetooth",
+                        "rtkit",
+                        "vboxsf",
+                        "avahi",
+                        "nm-openvpn",
+                        "nm-openconnect",
+                        "pulse",
+                        "pulse-access",
+                        "geoclue",
+                        "lightdm",
+                        "sgx",
+                        "pipewire",
+                        "mysql",
+                        "tcpdump",
+                        "rdma",
+                        "stunnel4",
+                        "sslh",
+                        "ssl-cert",
+                        "ntp",
+                        "postgres",
+                        "arpwatch",
+                        "sambashare",
+                        "redis",
+                        "inetsim",
+                        "wireshark",
+                        "_gvm",
+                        "beef-xss",
+                        "lpadmin",
+                        "scanner",
+                        "docker",
+                        "autologin",
+                        "parrot",
+                        "ftp"
+                    ],
+                    "passed": true
+                },
+                "Installed Packages": {
+                    "result": [
+                        "0trace",
+                        "accountsservice",
+                        "adduser",
+                        "adwaita-icon-theme",
+                        "afflib-tools",
+                        "afl",
+                        "afl++",
+                        "afl++-clang",
+                        "afl++-doc",
+                        "aircrack-ng"
+                    ],
+                    "passed": true
+                },
+                "Scheduled Cron Jobs": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                },
+                "Disk Usage": {
+                    "result": [
+                        "total           131G   15G  115G  12% -"
+                    ],
+                    "passed": true
+                },
+                "Memory Usage": {
+                    "result": [
+                        "Mem:            2741         654        1422           6         665        1933"
+                    ],
+                    "passed": true
+                },
+                "CPU Usage": {
+                    "result": [
+                        "%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st"
+                    ],
+                    "passed": true
+                },
+                "Log Files": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-25 07:18:11",
+        "results": {
+            "Linux Audit": {
+                "OS Version": {
+                    "result": "Description:\tParrot OS 5.3 (Electro Ara)",
+                    "passed": true
+                },
+                "Kernel Version": {
+                    "result": "6.1.0-1parrot1-amd64",
+                    "passed": true
+                },
+                "Firewall Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "SSH Root Login": {
+                    "result": "#PermitRootLogin prohibit-password\n# the setting of \"PermitRootLogin without-password\".",
+                    "passed": false
+                },
+                "Password Authentication": {
+                    "result": "#PasswordAuthentication yes\n# PasswordAuthentication.  Depending on your PAM configuration,\n# PAM authentication, then enable this but set PasswordAuthentication",
+                    "passed": false
+                },
+                "Sudoers File Permissions": {
+                    "result": "-r--r----- 1 root root 674 May  2  2023 /etc/sudoers",
+                    "passed": false
+                },
+                "Users with UID 0": {
+                    "result": "root",
+                    "passed": false
+                },
+                "World Writable Files": {
+                    "result": "",
+                    "passed": true
+                },
+                "Listening Ports": {
+                    "result": [
+                        "tcp   LISTEN 0      128                               0.0.0.0:22        0.0.0.0:*          ",
+                        "tcp   LISTEN 0      128                                  [::]:22           [::]:*"
+                    ],
+                    "passed": true
+                },
+                "Disk Usage": {
+                    "result": [
+                        "total           131G   15G  115G  12% -"
+                    ],
+                    "passed": true
+                },
+                "Log Files": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-25 07:20:48",
+        "results": {
+            "Linux Audit": {
+                "OS Version": {
+                    "result": "Description:\tParrot OS 5.3 (Electro Ara)",
+                    "passed": true
+                },
+                "Kernel Version": {
+                    "result": "6.1.0-1parrot1-amd64",
+                    "passed": true
+                },
+                "Firewall Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "SSH Root Login": {
+                    "result": "#PermitRootLogin prohibit-password\n# the setting of \"PermitRootLogin without-password\".",
+                    "passed": false
+                },
+                "Password Authentication": {
+                    "result": "#PasswordAuthentication yes\n# PasswordAuthentication.  Depending on your PAM configuration,\n# PAM authentication, then enable this but set PasswordAuthentication",
+                    "passed": false
+                },
+                "Sudoers File Permissions": {
+                    "result": "-r--r----- 1 root root 674 May  2  2023 /etc/sudoers",
+                    "passed": false
+                },
+                "Users with UID 0": {
+                    "result": "root",
+                    "passed": false
+                },
+                "World Writable Files": {
+                    "result": "",
+                    "passed": true
+                },
+                "Listening Ports": {
+                    "result": [
+                        "tcp   LISTEN 0      128                               0.0.0.0:22        0.0.0.0:*          ",
+                        "tcp   LISTEN 0      128                                  [::]:22           [::]:*"
+                    ],
+                    "passed": true
+                },
+                "Disk Usage": {
+                    "result": [
+                        "total           131G   15G  115G  12% -"
+                    ],
+                    "passed": true
+                },
+                "Log Files": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                },
+                "Failed Login Attempts": {
+                    "result": "",
+                    "passed": true
+                },
+                "SUID/SGID Files": {
+                    "result": "/usr/bin/chage\n/usr/bin/chfn\n/usr/bin/chsh\n/usr/bin/crontab\n/usr/bin/dotlockfile\n/usr/bin/expiry\n/usr/bin/fusermount3\n/usr/bin/gpasswd\n/usr/bin/mount\n/usr/bin/newgrp\n/usr/bin/ntfs-3g\n/usr/bin/passwd\n/usr/bin/pkexec\n/usr/bin/ssh-agent\n/usr/bin/su\n/usr/bin/sudo\n/usr/bin/umount\n/usr/bin/vmware-user-suid-wrapper\n/usr/bin/wall\n/usr/bin/write.ul\n/usr/lib/dbus-1.0/dbus-daemon-launch-helper\n/usr/lib/openssh/ssh-keysign\n/usr/lib/x86_64-linux-gnu/utempter/utempter\n/usr/lib/xorg/Xorg.wrap\n/usr/libexec/polkit-agent-helper-1\n/usr/sbin/exim4\n/usr/sbin/pppd\n/usr/sbin/unix_chkpwd\n/usr/share/codium/chrome-sandbox",
+                    "passed": false
+                },
+                "Unowned Files and Directories": {
+                    "result": "",
+                    "passed": true
+                },
+                "Password Policy": {
+                    "result": "PASS_MAX_DAYS\t99999\nPASS_MIN_DAYS\t0\nPASS_WARN_AGE\t7",
+                    "passed": true
+                },
+                "Audit Logs": {
+                    "result": "",
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-25 08:30:58",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Stopped",
+                    "passed": false
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "25 February 2025 05:38:47",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-02-25 08:31:07",
+        "results": {
+            "Linux Audit": {
+                "OS Version": {
+                    "result": "Description:\tParrot OS 5.3 (Electro Ara)",
+                    "passed": true
+                },
+                "Kernel Version": {
+                    "result": "6.1.0-1parrot1-amd64",
+                    "passed": true
+                },
+                "Firewall Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Running Services": {
+                    "result": [
+                        "UNIT                           LOAD   ACTIVE SUB     DESCRIPTION",
+                        "  accounts-daemon.service        loaded active running Accounts Service",
+                        "  blueman-mechanism.service      loaded active running Bluetooth management mechanism",
+                        "  cron.service                   loaded active running Regular background program processing daemon",
+                        "  dbus.service                   loaded active running D-Bus System Message Bus",
+                        "  getty@tty1.service             loaded active running Getty on tty1",
+                        "  haveged.service                loaded active running Entropy Daemon based on the HAVEGE algorithm",
+                        "  lightdm.service                loaded active running Light Display Manager",
+                        "  ModemManager.service           loaded active running Modem Manager",
+                        "  NetworkManager.service         loaded active running Network Manager"
+                    ],
+                    "passed": true
+                },
+                "Listening Ports": {
+                    "result": [
+                        "tcp   LISTEN 0      128                               0.0.0.0:22        0.0.0.0:*          ",
+                        "tcp   LISTEN 0      128                                  [::]:22           [::]:*"
+                    ],
+                    "passed": true
+                },
+                "Users": {
+                    "result": [
+                        "root",
+                        "daemon",
+                        "bin",
+                        "sys",
+                        "sync",
+                        "games",
+                        "man",
+                        "lp",
+                        "mail",
+                        "news",
+                        "uucp",
+                        "proxy",
+                        "www-data",
+                        "backup",
+                        "list",
+                        "irc",
+                        "gnats",
+                        "nobody",
+                        "_apt",
+                        "systemd-network",
+                        "systemd-resolve",
+                        "tss",
+                        "strongswan",
+                        "messagebus",
+                        "systemd-timesync",
+                        "Debian-exim",
+                        "uuidd",
+                        "debian-tor",
+                        "usbmux",
+                        "rtkit",
+                        "dnsmasq",
+                        "avahi",
+                        "nm-openvpn",
+                        "nm-openconnect",
+                        "speech-dispatcher",
+                        "pulse",
+                        "geoclue",
+                        "lightdm",
+                        "mysql",
+                        "tcpdump",
+                        "stunnel4",
+                        "sshd",
+                        "sslh",
+                        "ntp",
+                        "postgres",
+                        "arpwatch",
+                        "miredo-server",
+                        "iodine",
+                        "miredo",
+                        "redis",
+                        "inetsim",
+                        "_gvm",
+                        "beef-xss",
+                        "parrot",
+                        "ftp"
+                    ],
+                    "passed": true
+                },
+                "Groups": {
+                    "result": [
+                        "root",
+                        "daemon",
+                        "bin",
+                        "sys",
+                        "adm",
+                        "tty",
+                        "disk",
+                        "lp",
+                        "mail",
+                        "news",
+                        "uucp",
+                        "man",
+                        "proxy",
+                        "kmem",
+                        "dialout",
+                        "fax",
+                        "voice",
+                        "cdrom",
+                        "floppy",
+                        "tape",
+                        "sudo",
+                        "audio",
+                        "dip",
+                        "www-data",
+                        "backup",
+                        "operator",
+                        "list",
+                        "irc",
+                        "src",
+                        "gnats",
+                        "shadow",
+                        "utmp",
+                        "video",
+                        "sasl",
+                        "plugdev",
+                        "staff",
+                        "games",
+                        "users",
+                        "nogroup",
+                        "systemd-journal",
+                        "systemd-network",
+                        "systemd-resolve",
+                        "input",
+                        "kvm",
+                        "render",
+                        "crontab",
+                        "netdev",
+                        "tss",
+                        "messagebus",
+                        "systemd-timesync",
+                        "Debian-exim",
+                        "uuidd",
+                        "debian-tor",
+                        "ssh",
+                        "bluetooth",
+                        "rtkit",
+                        "vboxsf",
+                        "avahi",
+                        "nm-openvpn",
+                        "nm-openconnect",
+                        "pulse",
+                        "pulse-access",
+                        "geoclue",
+                        "lightdm",
+                        "sgx",
+                        "pipewire",
+                        "mysql",
+                        "tcpdump",
+                        "rdma",
+                        "stunnel4",
+                        "sslh",
+                        "ssl-cert",
+                        "ntp",
+                        "postgres",
+                        "arpwatch",
+                        "sambashare",
+                        "redis",
+                        "inetsim",
+                        "wireshark",
+                        "_gvm",
+                        "beef-xss",
+                        "lpadmin",
+                        "scanner",
+                        "docker",
+                        "autologin",
+                        "parrot",
+                        "ftp"
+                    ],
+                    "passed": true
+                },
+                "Installed Packages": {
+                    "result": [
+                        "0trace",
+                        "accountsservice",
+                        "adduser",
+                        "adwaita-icon-theme",
+                        "afflib-tools",
+                        "afl",
+                        "afl++",
+                        "afl++-clang",
+                        "afl++-doc",
+                        "aircrack-ng"
+                    ],
+                    "passed": true
+                },
+                "Scheduled Cron Jobs": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                },
+                "Disk Usage": {
+                    "result": [
+                        "total           131G   15G  115G  12% -"
+                    ],
+                    "passed": true
+                },
+                "Memory Usage": {
+                    "result": [
+                        "Mem:            2741         665        1400           6         675        1922"
+                    ],
+                    "passed": true
+                },
+                "CPU Usage": {
+                    "result": [
+                        "%Cpu(s):  0.5 us,  0.5 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st"
+                    ],
+                    "passed": true
+                },
+                "Log Files": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    }
+]

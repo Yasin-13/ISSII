@@ -1,0 +1,147 @@
+from flask import Flask, jsonify, send_file
+from flask_cors import CORS
+import subprocess
+import socket
+import paramiko
+from fpdf import FPDF
+import os
+from pymongo import MongoClient
+from datetime import datetime
+
+app = Flask(__name__)
+CORS(app)
+
+LINUX_VM_IP = "172.20.10.3c"  
+LINUX_VM_USER = "parrot"
+LINUX_VM_PASSWORD = "parrot"
+
+# MongoDB configuration
+MONGODB_URI = "mongodb://localhost:27017/"
+DB_NAME = "security_audit"
+COLLECTION_NAME = "audit_results"
+
+client = MongoClient(MONGODB_URI)
+db = client[DB_NAME]
+collection = db[COLLECTION_NAME]
+
+def run_powershell_command(command):
+    try:
+        result = subprocess.run(["powershell", "-Command", command], capture_output=True, text=True)
+        return result.stdout.strip()
+    except Exception as e:
+        return str(e)
+
+def get_system_info():
+    try:
+        pc_name = socket.gethostname()
+        ip_address = socket.gethostbyname(pc_name)
+        os_version = run_powershell_command("(Get-CimInstance Win32_OperatingSystem).Caption")
+        return {
+            "PC Name": pc_name,
+            "IP Address": ip_address,
+            "OS Version": os_version
+        }
+    except Exception as e:
+        return {"Error": str(e)}
+
+def run_linux_command(command):
+    try:
+        ssh = paramiko.SSHClient()
+        ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+        ssh.connect(LINUX_VM_IP, username=LINUX_VM_USER, password=LINUX_VM_PASSWORD)
+        stdin, stdout, stderr = ssh.exec_command(command)
+        output = stdout.read().decode().strip()
+        ssh.close()
+        return output
+    except Exception as e:
+        return str(e)
+
+# Security audit function for Windows
+def perform_windows_audit():
+    return {
+        "System Information": get_system_info(),
+        "Firewall Status": "Enabled" if "True" in run_powershell_command("Get-NetFirewallProfile | Select-Object -ExpandProperty Enabled") else "Disabled",
+        "Windows Defender": "Enabled" if "True" in run_powershell_command("Get-MpComputerStatus | Select-Object -ExpandProperty AntivirusEnabled") else "Disabled",
+        "Automatic Updates": "Enabled" if any(x in run_powershell_command("Get-WindowsUpdateSetting | Select-Object -ExpandProperty AutomaticUpdateOption") for x in ["3", "4"]) else "Disabled",
+        "UAC Status": "Enabled" if "1" in run_powershell_command("(Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System' -Name EnableLUA).EnableLUA") else "Disabled",
+        "Guest Account Status": "Enabled" if "True" in run_powershell_command("(Get-LocalUser -Name 'Guest').Enabled") else "Disabled",
+        "Shared Folders": run_powershell_command("Get-SmbShare | Select-Object -ExpandProperty Name").split(),
+        "Listening Ports": run_powershell_command("Get-NetTCPConnection | Where-Object { $_.State -eq 'Listen' } | Select-Object LocalAddress,LocalPort").split('\n'),
+        "Audit Policies": run_powershell_command("auditpol /get /category:*").split('\n'),
+        "Running Processes": run_powershell_command("Get-Process | Select-Object ProcessName,Id").split('\n'),
+        "Disk Encryption Status": run_powershell_command("Get-BitLockerVolume | Select-Object VolumeStatus").split('\n'),
+        "Installed Programs": run_powershell_command("Get-WmiObject -Query 'SELECT * FROM Win32_Product' | Select-Object Name,Version").split('\n'),
+    }
+
+# Security audit function for Linux
+def perform_linux_audit():
+    return {
+        "OS Version": run_linux_command("lsb_release -d"),
+        "Kernel Version": run_linux_command("uname -r"),
+        "Firewall Status": run_linux_command("sudo ufw status | grep Status"),
+        "Running Services": run_linux_command("systemctl list-units --type=service --state=running | head -10").split('\n'),
+        "Listening Ports": run_linux_command("ss -tuln | grep LISTEN").split('\n'),
+        "Users": run_linux_command("cat /etc/passwd | cut -d: -f1").split('\n'),
+        "Groups": run_linux_command("getent group | cut -d: -f1").split('\n'),
+        "Installed Packages": run_linux_command("dpkg-query -W -f='${binary:Package}\n' | head -10").split('\n'),
+        "Scheduled Cron Jobs": run_linux_command("crontab -l").split('\n'),
+        "Disk Usage": run_linux_command("df -h --total | grep total").split('\n'),
+        "Memory Usage": run_linux_command("free -m | grep Mem").split('\n'),
+        "CPU Usage": run_linux_command("top -bn1 | grep 'Cpu(s)'").split('\n'),
+        "Log Files": run_linux_command("tail -n 50 /var/log/syslog").split('\n'),
+    }
+
+# Function to save audit results to MongoDB
+def save_to_mongodb(results):
+    audit_record = {
+        "timestamp": datetime.utcnow(),
+        "results": results
+    }
+    collection.insert_one(audit_record)
+
+# Function to generate audit report
+def generate_pdf_report(results):
+    pdf = FPDF()
+    pdf.set_auto_page_break(auto=True, margin=15)
+    pdf.add_page()
+    pdf.set_font('Arial', 'B', 16)
+    pdf.cell(0, 10, 'Security Audit Report', 0, 1, 'C')
+    pdf.ln(10)
+    pdf.set_font('Arial', '', 12)
+    
+    for key, value in results.items():
+        pdf.set_font('Arial', 'B', 14)
+        pdf.cell(0, 10, f'{key}:', 0, 1, 'L')
+        pdf.set_font('Arial', '', 12)
+        pdf.multi_cell(0, 8, str(value), 0, 1)
+        pdf.ln(5)
+        pdf.set_draw_color(0, 0, 0)
+        pdf.set_line_width(0.5)
+        pdf.line(10, pdf.get_y(), 200, pdf.get_y())
+        pdf.ln(5)
+    
+    pdf_filename = "security_audit_report.pdf"
+    pdf.output(pdf_filename)
+    return pdf_filename
+
+@app.route('/generate_report', methods=['GET'])
+def generate_report():
+    results = {"Windows Audit": perform_windows_audit(), "Linux Audit": perform_linux_audit()}
+    save_to_mongodb(results)
+    report_path = generate_pdf_report(results)
+    return send_file(report_path, as_attachment=True)
+
+@app.route('/audit/windows', methods=['GET'])
+def audit_windows():
+    results = perform_windows_audit()
+    save_to_mongodb({"Windows Audit": results})
+    return jsonify(results)
+
+@app.route('/audit/linux', methods=['GET'])
+def audit_linux():
+    results = perform_linux_audit()
+    save_to_mongodb({"Linux Audit": results})
+    return jsonify(results)
+
+if __name__ == '__main__':
+    app.run(debug=True)
