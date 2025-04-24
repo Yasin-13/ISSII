@@ -1,0 +1,208 @@
+{
+    "SSH Configuration": {
+      "result": "ssh 22",
+      "passed": true
+    },
+    "SSH Version": {
+      "result": "Cisco IOS Software, Version 15.2(4)M6a - SSH enabled",
+      "passed": true
+    },
+    "Default/Weak Passwords": {
+      "result": "",
+      "passed": true
+    },
+    "Unused Ports": {
+      "result": "GigabitEthernet0/1 unassigned administratively down\nGigabitEthernet0/2 unassigned administratively down",
+      "passed": true
+    },
+    "Access Control Lists (ACLs)": {
+      "result": "Standard IP access list 10\npermit 192.168.1.0, wildcard bits 0.0.0.255",
+      "passed": true
+    },
+    "Firmware Version": {
+      "result": "Cisco IOS Software, Version 15.2(4)M6a",
+      "passed": true
+    },
+    "Logging Status": {
+      "result": "Logging enabled",
+      "passed": true
+    },
+    "Router Info": {
+      "result": "Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version 15.2(4)M6a",
+      "passed": true
+    },
+    "Weak Ciphers": {
+      "result": "aes128-cbc, aes192-cbc, aes256-cbc",
+      "passed": true
+    },
+    "HTTPS Status": {
+      "result": "HTTPS server status: enabled",
+      "passed": true
+    },
+    "VPN Status": {
+      "result": "VPN sessions: active",
+      "passed": true
+    },
+    "Two Factor Authentication": {
+      "result": "aaa authentication login default group radius local",
+      "passed": true
+    }
+  }
+
+
+  {
+    "SSH Configuration": {
+      "result": "ssh 22",
+      "passed": true
+    },
+    "SSH Version": {
+      "result": "Cisco IOS Software, Version 15.2(4)M6a - SSH enabled",
+      "passed": true
+    },
+    "Default/Weak Passwords": {
+      "result": "default_user",
+      "passed": false
+    },
+    "Unused Ports": {
+      "result": "GigabitEthernet0/1 unassigned administratively down\nGigabitEthernet0/2 unassigned administratively down",
+      "passed": true
+    },
+    "Access Control Lists (ACLs)": {
+      "result": "Standard IP access list 10\npermit 192.168.1.0, wildcard bits 0.0.0.255",
+      "passed": true
+    },
+    "Firmware Version": {
+      "result": "Cisco IOS Software, Version 15.2(4)M6a",
+      "passed": true
+    },
+    "Logging Status": {
+      "result": "Logging enabled",
+      "passed": true
+    },
+    "Router Info": {
+      "result": "Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version 15.2(4)M6a",
+      "passed": true
+    },
+    "Weak Ciphers": {
+      "result": "3des-cbc, aes128-cbc, aes192-cbc, aes256-cbc",
+      "passed": false
+    },
+    "HTTPS Status": {
+      "result": "HTTPS server status: enabled",
+      "passed": true
+    },
+    "VPN Status": {
+      "result": "VPN sessions: active",
+      "passed": true
+    },
+    "Two Factor Authentication": {
+      "result": "aaa authentication login default group radius local",
+      "passed": true
+    }
+  }
+
+
+
+  {
+    "SSH Configuration": {
+      "result": "ssh 22",
+      "passed": true
+    },
+    "SSH Version": {
+      "result": "Cisco IOS Software, Version 15.2(4)M6a - SSH enabled",
+      "passed": true
+    },
+    "Default/Weak Passwords": {
+      "result": "default_user, weak_password",
+      "passed": false
+    },
+    "Unused Ports": {
+      "result": "GigabitEthernet0/1 unassigned administratively down\nGigabitEthernet0/2 unassigned administratively down",
+      "passed": true
+    },
+    "Access Control Lists (ACLs)": {
+      "result": "Standard IP access list 10\npermit 192.168.1.0, wildcard bits 0.0.0.255",
+      "passed": true
+    },
+    "Firmware Version": {
+      "result": "Cisco IOS Software, Version 15.2(4)M6a",
+      "passed": true
+    },
+    "Logging Status": {
+      "result": "Logging enabled",
+      "passed": true
+    },
+    "Router Info": {
+      "result": "Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version 15.2(4)M6a",
+      "passed": true
+    },
+    "Weak Ciphers": {
+      "result": "3des-cbc, aes128-cbc",
+      "passed": false
+    },
+    "HTTPS Status": {
+      "result": "HTTPS server status: enabled",
+      "passed": true
+    },
+    "VPN Status": {
+      "result": "VPN sessions: active",
+      "passed": true
+    },
+    "Two Factor Authentication": {
+      "result": "aaa authentication login default group radius local",
+      "passed": true
+    }
+  }
+
+  {
+    "SSH Configuration": {
+      "result": "ssh 22",
+      "passed": true
+    },
+    "SSH Version": {
+      "result": "Cisco IOS Software, Version 15.2(4)M6a - SSH enabled",
+      "passed": true
+    },
+    "Default/Weak Passwords": {
+      "result": "default_user, weak_password, admin/admin",
+      "passed": false
+    },
+    "Unused Ports": {
+      "result": "GigabitEthernet0/1 unassigned administratively down\nGigabitEthernet0/2 unassigned administratively down",
+      "passed": true
+    },
+    "Access Control Lists (ACLs)": {
+      "result": "Standard IP access list 10\npermit 192.168.1.0, wildcard bits 0.0.0.255",
+      "passed": true
+    },
+    "Firmware Version": {
+      "result": "Cisco IOS Software, Version 15.2(4)M6a",
+      "passed": true
+    },
+    "Logging Status": {
+      "result": "Logging enabled",
+      "passed": true
+    },
+    "Router Info": {
+      "result": "Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version 15.2(4)M6a",
+      "passed": true
+    },
+    "Weak Ciphers": {
+      "result": "3des-cbc, aes128-cbc",
+      "passed": false
+    },
+    "HTTPS Status": {
+      "result": "HTTPS server status: enabled",
+      "passed": true
+    },
+    "VPN Status": {
+      "result": "VPN sessions: active",
+      "passed": true
+    },
+    "Two Factor Authentication": {
+      "result": "aaa authentication login default group local",
+      "passed": false
+    }
+  }
+
+  

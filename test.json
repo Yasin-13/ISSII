@@ -1,0 +1,32 @@
+{
+    "Windows Audit": {
+      "System Information": {
+        "PC Name": "mohamed yasin",
+        "IP Address": "192.168.1.100",
+        "OS Version": "Microsoft Windows 10"
+      },
+      "Firewall Status": "Enabled",
+      "Windows Defender": "Enabled",
+      "Automatic Updates": "Enabled",
+      "UAC Status": "Enabled",
+      "Guest Account Status": "Disabled",
+      "Shared Folders": ["SharedFolder1", "SharedFolder2"],
+      "Listening Ports": [
+        "LocalAddress: 0.0.0.0:80",
+        "LocalAddress: 0.0.0.0:443"
+      ],
+      "Audit Policies": [
+        "System audit policy",
+        "Logon audit policy"
+      ],
+      "Running Processes": [
+        "ProcessName: chrome, Id: 1234",
+        "ProcessName: explorer, Id: 5678"
+      ],
+      "Disk Encryption Status": ["VolumeStatus: FullyEncrypted"],
+      "Installed Programs": [
+        "Name: Google Chrome, Version: 89.0.4389.82",
+        "Name: Microsoft Office, Version: 16.0.12325.20288"
+      ]
+    }
+}

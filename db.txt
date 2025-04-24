@@ -16,7 +16,7 @@ LINUX_VM_USER = "parrot"
 LINUX_VM_PASSWORD = "parrot"
 
 # MongoDB configuration
-MONGODB_URI = "mongodb://localhost:27017/"
+MONGODB_URI = "mongodb+srv://yasin0p21:<db_password>@mfa.gx2nq.mongodb.net/?retryWrites=true&w=majority&appName=MFA"
 DB_NAME = "security_audit"
 COLLECTION_NAME = "audit_results"
 

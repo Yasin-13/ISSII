@@ -2677,5 +2677,449 @@
                 }
             }
         }
+    },
+    {
+        "timestamp": "2025-03-14 15:05:58",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Stopped",
+                    "passed": false
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "14 March 2025 14:32:40",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-03-14 15:19:54",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "14 March 2025 14:32:40",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-03-14 15:26:06",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "14 March 2025 14:32:40",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-03-14 15:31:26",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "14 March 2025 14:32:40",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-03-14 15:32:41",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Stopped",
+                    "passed": false
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "14 March 2025 14:32:40",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
+    },
+    {
+        "timestamp": "2025-03-14 15:33:06",
+        "results": {
+            "Windows Audit": {
+                "Firewall Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Windows Defender": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "UAC Status": {
+                    "result": "Enabled",
+                    "passed": true
+                },
+                "Guest Account Status": {
+                    "result": "Disabled",
+                    "passed": true
+                },
+                "BitLocker Status": {
+                    "result": "",
+                    "passed": false
+                },
+                "Shared Folders": {
+                    "result": [
+                        "ADMIN$",
+                        "C$",
+                        "D$",
+                        "IPC$"
+                    ],
+                    "passed": false
+                },
+                "Weak Passwords": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Windows Update Service Status": {
+                    "result": "Stopped",
+                    "passed": false
+                },
+                "Firewall Service Status": {
+                    "result": "Running",
+                    "passed": true
+                },
+                "Pending Updates": {
+                    "result": [
+                        ""
+                    ],
+                    "passed": false
+                },
+                "Antivirus Definitions Status": {
+                    "result": "14 March 2025 14:32:40",
+                    "passed": true
+                },
+                "Admin Users": {
+                    "result": [
+                        "Alias name     administrators",
+                        "Comment        Administrators have complete and unrestricted access to the computer/domain",
+                        "",
+                        "Members",
+                        "",
+                        "-------------------------------------------------------------------------------",
+                        "Administrator",
+                        "MOHAMED YASIN",
+                        "The command completed successfully."
+                    ],
+                    "passed": true
+                }
+            }
+        }
     }
 ]
